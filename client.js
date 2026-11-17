@@ -21,7 +21,7 @@
  */
 
 window.__ModuleLoader__.load({
-  id: '@local/dsh-douyin-wallpaper',
+  id: 'dsh-douyin-wallpaper',
   factory(require) {
     const React = require('react')
     const h = React.createElement
