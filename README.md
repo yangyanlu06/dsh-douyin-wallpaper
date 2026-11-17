@@ -6,7 +6,13 @@
 
 ## 装
 
-在 DSH 的 **插件 → 添加插件** 里选这个目录，或：
+在 DSH 的 **插件 → 添加插件** 里粘贴仓库地址，或在命令行：
+
+```
+dsh plugin --profile web add github:yangyanlu06/dsh-douyin-wallpaper
+```
+
+本地放一份源码开发时，用目录链接代替仓库地址：
 
 ```
 dsh plugin --profile web add link:<这个目录的绝对路径> && dsh plugin --profile web install
