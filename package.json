@@ -1,7 +1,8 @@
 {
-    "name":  "@local/dsh-douyin-wallpaper",
+    "name":  "dsh-douyin-wallpaper",
     "version":  "0.2.0",
     "private":  true,
+    "license":  "MIT",
     "description":  "粘贴一条抖音链接，DSH 的极简界面就变成它的播放背景：视频铺满窗口，界面像磨砂玻璃浮在上面。",
     "type":  "module",
     "exports":  {
