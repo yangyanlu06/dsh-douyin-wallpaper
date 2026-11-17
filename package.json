@@ -1,0 +1,41 @@
+{
+    "name":  "@local/dsh-douyin-wallpaper",
+    "version":  "0.2.0",
+    "private":  true,
+    "description":  "粘贴一条抖音链接，DSH 的极简界面就变成它的播放背景：视频铺满窗口，界面像磨砂玻璃浮在上面。",
+    "type":  "module",
+    "exports":  {
+                    ".":  "./index.js",
+                    "./client":  "./client.js",
+                    "./locale/*.json":  "./locale/*.json",
+                    "./icon":  "./icon.svg"
+                },
+    "files":  [
+                  "index.js",
+                  "client.js",
+                  "cordis.patch.yml",
+                  "tools",
+                  "locale/*.json",
+                  "docs",
+                  "icon.svg",
+                  "README.md"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "platform":  "web",
+                               "immediately":  true,
+                               "inject":  [
+                                              "@deepseek-ai/dsh-client-ui-layout",
+                                              "@deepseek-ai/dsh-client-ui-sidebar"
+                                          ]
+                           }
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/yangyanlu06/dsh-douyin-wallpaper.git"
+                   },
+    "homepage":  "https://github.com/yangyanlu06/dsh-douyin-wallpaper#readme"
+}
