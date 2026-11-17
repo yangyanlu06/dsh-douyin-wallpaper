@@ -1,0 +1,8 @@
+﻿node_modules/
+.venv/
+state.json
+lapian.json
+staging/
+*.mp4
+*.jpg
+*.webp
