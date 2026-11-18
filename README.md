@@ -4,6 +4,8 @@
 
 ![抖音视频铺满窗口，侧栏、消息与输入框变成磨砂玻璃浮在画面上，左下角是壁纸控制面板](assets/screenshot-1.jpg)
 
+▶ [31 秒演示片](https://github.com/yangyanlu06/dsh-douyin-wallpaper/releases/download/v0.2.0/demo.mp4)（1080×1920，无声）：抖音原片 → 界面变玻璃 → 取流/落盘/玻璃化三步 → 面板实时调。
+
 ## 装
 
 在 DSH 的 **插件 → 添加插件** 里粘贴仓库地址，或在命令行：
